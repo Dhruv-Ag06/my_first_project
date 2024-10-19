@@ -6,3 +6,13 @@ After the program to match the recipes is created ,we create a home page in our 
 Now,on the search page we import the logic to match the user ingredients and our dataset and after matching them we return the user with names and ingredients of all the recipes which can be made with the given ingredients
 Also, we provide a button with each returned recipe to see the instructions to how to make a recipe.This button redirects the user to the recipe_show page when we list out the process of making it.
 All the pages of our app are created using "streamlit" library
+
+REQUIREMENTS:
+First,you need to have a python compiler,for compiling the code.I prefer using "vscode" but you can use any compiler you are used to given that it must be able to create workspaces inside it.
+
+secondly,For running the code you need to have a dataset of recipes.The dataset of recipes I have used is linked here 
+"https://www.kaggle.com/datasets/pes12017000148/food-ingredients-and-recipe-dataset-with-images".Copy this link and search in your browser to get a zip file containing a csv file having recipes and their corresponding images
+If you are reading this line then there is another dataset which I used in the code .I will also give the address of it here https://www.kaggle.com/datasets/paultimothymooney/recipenlg.But you can comment out the lines 5,9,13,17-46 in the file recipes.py 
+The third requirement for using this code is to download pandas which helps in processing the dataset into the required format in python.You can directly type the command "pip install pandas" in the terminal to install pandas
+The last requirement is to download streamlit to have an interface.It also can be downloaaded using the command "pip install streamlit".
+You are now set to run the code
