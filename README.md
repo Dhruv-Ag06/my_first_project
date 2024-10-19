@@ -14,7 +14,7 @@ First,you need to have a python compiler,for compiling the code.I prefer using "
 
 Secondly,For running the code you need to have a dataset of recipes.The dataset of recipes I have used is
 "https://www.kaggle.com/datasets/pes12017000148/food-ingredients-and-recipe-dataset-with-images".  It has  a zip file containing a csv file having recipes and their corresponding images
-If you are reading this line then there is another dataset which I used in the code which is https://www.kaggle.com/datasets/paultimothymooney/recipenlg.But you can comment out the lines 5,9,13,17-46 in the file recipes.py 
+If you are reading this line then there is another dataset which I used in the code which is https://www.kaggle.com/datasets/paultimothymooney/recipenlg.   But you can comment out the lines 5,9,13,17-46 in the file recipes.py 
 
 The third requirement for using this code is to download pandas which helps in processing the dataset into the required format in python.You can directly type the command "pip install pandas" in the terminal to install pandas
 
